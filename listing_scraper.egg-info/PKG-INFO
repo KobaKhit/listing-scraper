@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: listing-scraper
+Version: 0.1.0
+Summary: Tool to scrape listings from major online exchanges.
+Home-page: 
+Author: Kobakhit
+Author-email: kobakhit@gmail.com
+License: LICENSE.txt
