@@ -1,1 +1,1 @@
-from .stubhub_scraper import get_events, get_listings, parse_listing
+from .scraper import get_events, get_listings, parse_listing
