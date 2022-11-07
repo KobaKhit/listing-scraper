@@ -82,6 +82,12 @@ def get_listings(eventid):
     Get all event listings.
     '''
     s = prepare_session()
+
+    if type(eventid) is list:
+        res = []
+        for e in eventid:
+            res.append(get_listings(e))
+        return res
     
     url = f"https://www.stubhub.com/event/{eventid}"
     url = s.request("POST", url,allow_redirects=True).url
@@ -118,6 +124,8 @@ def parse_listing(l):
     Parse listing by extracting relevant columns.
     '''
     listing = {}
+    columns = {}
     for c in columns:
-        listing[c] = columns[c]
-    pass
+        listing[columns[c]] = l[c]
+    
+    return listing
