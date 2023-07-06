@@ -14,10 +14,10 @@ A Python wrapper for scraping listings from major ticket exchanges. You can see 
 
 
 # To Dos
-  - [ ] Scrapers
+  - [x] Scrapers
     - [x] Stubhub
-    - [ ] Seatgeek
-    - [ ] Vividseats
-    - [ ] TicketMaster - might be tricky
-  - [ ] Documentation
-  - [ ] Tests
+    - [x] Seatgeek
+    - [x] Vividseats
+    - [x]TicketMaster - might be tricky
+  - [x] Documentation
+  - [x] Tests
